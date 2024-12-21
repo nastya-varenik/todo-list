@@ -1,0 +1,42 @@
+.filterContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .filterGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .filterCheckbox {
+    margin-right: 5px;
+  }
+  
+  .searchInputContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .searchIcon {
+    position: absolute;
+    left: 10px;
+    color: #a72870;
+  }
+  
+  .searchInput {
+    width: 100%;
+    padding: 10px 10px 10px 35px; /* Добавляем отступ для иконки */
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  

@@ -1,0 +1,94 @@
+.todoForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    max-width: 55rem; /* Максимальная ширина формы */
+    margin: 0 auto; /* Центрирование формы */
+  }
+  
+  .formGroup {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .inputField {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .radio {
+    margin-right: 5px;
+  }
+  
+  .errorMessage {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+  }
+  
+  .importanceAndButtons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .importanceContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .importanceTitle {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .buttonsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .submitButton {
+    padding: 10px;
+    font-size: 1em;
+    background-color: #a72870;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-self: flex-start; /* Центрирование кнопки */
+    width: 15rem;
+  }
+  
+  .submitButton:hover {
+    background-color: #f471c6;
+  }
+  
+  .generateButton {
+    padding: 10px;
+    font-size: 1em;
+    background-color: #a72870;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-self: flex-start; /* Центрирование кнопки */
+    width: 15rem;
+  }
+  
+  .generateButton:hover {
+    background-color: #f471c6;
+  }
+  
